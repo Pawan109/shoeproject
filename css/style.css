@@ -1,0 +1,74 @@
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+}
+[data-theme="dark"] {
+  --background-color: #3F3F3F;
+  --text-color: #fff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+.navbar-header {
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+  font-stretch: expanded;
+  color: #6C7738;
+  padding-left: 350px;
+  padding-top: 5px;
+}
+
+p.description{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+hr{
+  border-color: darkgray;
+}
+
+.logo-image{
+    overflow: hidden;
+    margin-top: -6px;
+}
+}
+
+.navbar-light {
+  padding: 15px;
+  border: 7px solid darkgray;
+}
+
+.navbar-right{
+  font-size: 20px;
+  padding: 30px;
+}
+
+
+div.gallery {
+  margin-left: 140px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 317px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 315px;
+  height: 220px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
